@@ -1,0 +1,53 @@
+.promo {
+	padding-top: 94px;
+	padding-bottom: 94px;
+}
+
+.promo__container {
+	align-items: center;
+}
+
+.promo__list {
+	display: flex;
+}
+
+.promo__icon {
+	display: flex;
+	width: 270px;
+	height: 120px;
+	background-color: #f5f4fa;
+	border-radius: 4px;
+	margin-bottom: 30px;
+	justify-content: center;
+	align-items: center;
+}
+
+.promo__icon-locator,
+.promo__icon-clock,
+.promo__icon-laptop,
+.promo__icon-astronaut {
+	width: 70px;
+	height: 70px;
+}
+
+.promo__item:not(:last-child) {
+	margin-right: 30px;
+}
+
+.promo__subject {
+	margin-top: 0;
+	margin-bottom: 10;
+
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 1.14;
+	text-transform: uppercase;
+}
+
+.promo__desc {
+	margin-top: 0;
+	margin-bottom: 0;
+	font-size: 14px;
+	line-height: 1.71;
+	color: $title-text-color;
+}

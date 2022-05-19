@@ -1,0 +1,39 @@
+.footer__contact-item:not(:last-child) {
+	margin-bottom: 9px;
+}
+
+.footer__contact-geolocation {
+	font-size: 14px;
+	line-height: 1.71px;
+	color: $primary-white-color;
+	text-decoration: none;
+	font-style: normal;
+
+	transition-property: color;
+	transition-duration: 250ms;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+	&:hover,
+	&:focus {
+		color: $accent-color;
+	}
+}
+
+.footer__contact-mail,
+.footer__contact-tel {
+	font-size: 14px;
+	line-height: 1.71;
+	color: rgba(255, 255, 255, 0.6);
+	text-decoration: none;
+	font-style: normal;
+
+	transition-property: color;
+	transition-duration: 250ms;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+
+	&:hover,
+	&:focus {
+		color: $accent-color;
+	}
+}

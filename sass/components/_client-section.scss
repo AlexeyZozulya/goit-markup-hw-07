@@ -1,0 +1,60 @@
+.client-section {
+	padding-top: 94px;
+	padding-bottom: 94px;
+}
+
+.client-section__title {
+	margin: 0;
+	margin-bottom: 50px;
+
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.16;
+	text-align: center;
+	letter-spacing: 0.03em;
+}
+
+.client-section__list {
+	display: flex;
+}
+
+.client-section__item+.client-section__item {
+	margin-left: 30px;
+}
+
+.client-section__link {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 170px;
+	height: 91px;
+	color: #afb1b8;
+
+	border: 1px solid #afb1b8;
+	border-radius: 4px;
+	width: 170px;
+	height: 92px;
+
+	transition-property: border-color, color;
+	transition-duration: 250ms;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+	&:hover,
+	&:focus {
+		color: $accent-color;
+		border-color: $accent-color;
+	}
+}
+
+
+
+.client-section__icon-company-one,
+.client-section__icon-company-two,
+.client-section__icon-company-three,
+.client-section__icon-company-four,
+.client-section__icon-company-five,
+.client-section__icon-company-six {
+	width: 106px;
+	height: 60px;
+	fill: currentColor;
+}

@@ -1,0 +1,27 @@
+.footer {
+	background-color: $hero-foter-accent-color;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+.footer__container {
+	display: flex;
+	align-items: baseline;
+
+}
+
+.footer__logo {
+	display: block;
+	margin-bottom: 20px;
+
+	font-family: Raleway, sans-serif;
+	font-weight: bold;
+	font-size: 26px;
+	line-height: 1.19;
+	color: $accent-color;
+	text-decoration: none;
+}
+
+.footer__logo-decoration {
+	color: $primary-white-color;
+}
